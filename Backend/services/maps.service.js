@@ -52,6 +52,7 @@ module.exports.getDistanceTime = async (origin, destination) => {
     }
 }
 
+
 module.exports.getAutoCompleteSuggestions = async (input) => {
     if (!input) {
         throw new Error('query is required');
