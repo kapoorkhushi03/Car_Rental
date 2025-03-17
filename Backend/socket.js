@@ -7,7 +7,7 @@ let io;
 function initializeSocket(server) {
     io = socketIo(server, {
         cors: {
-            origin: '*',
+            origin: 'https://car-rental-pa1x.vercel.app',
             methods: [ 'GET', 'POST' ]
         }
     });
